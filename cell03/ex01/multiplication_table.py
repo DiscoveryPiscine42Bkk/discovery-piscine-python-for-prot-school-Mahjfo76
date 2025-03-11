@@ -1,4 +1,11 @@
 num_input = int(input("Enter your number : "))
+x = 0
 
-for x in range(1, 13) :
+while True :
     print(x, " x ", num_input, " = ", x*num_input)
+    
+    x = x + 1
+
+    if x > 12 :
+        break
+
