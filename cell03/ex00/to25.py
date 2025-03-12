@@ -1,10 +1,10 @@
-num_input = int(input("Enter your number : "))
+num_input = int(input("Enter a number less than 25 : "))
 
 if num_input > 25 :
     print("Error")
 
 while num_input <= 25 :
-    print(num_input)
+    print(f"Inside the loop, my variable is : {num_input}")
 
     num_input = num_input + 1 
 
