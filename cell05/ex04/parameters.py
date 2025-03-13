@@ -1,3 +1,7 @@
-user_input = input().split()
+#user_input = input().split()
 
-print(f"{len(user_input)}")
+#print(f"{len(user_input)}")
+
+import sys
+
+print(len(sys.argv) - 1)
