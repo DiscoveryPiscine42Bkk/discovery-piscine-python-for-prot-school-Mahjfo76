@@ -1,14 +1,15 @@
 number = [2, 8, 9, 48, 8, 22, -12, 2]
-new_number = []
+
+new_num = []
 
 print(number)
 
-number = [x + 2 for x in number]
+x = 0
 
-print(number[1:6])
+while x < 8 :
+    
+    if number[x] > 5 :
+        new_num.append(number[x] + 2)
+    x += 1
 
-for num in number :
-    if num > 5 :
-        new_number.append(num + 2)
-
-print(new_number)
+print(new_num)
